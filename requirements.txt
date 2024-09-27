@@ -1,0 +1,4 @@
+dnspython
+asyncio
+colorama
+optparse
