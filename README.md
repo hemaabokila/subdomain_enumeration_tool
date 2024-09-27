@@ -48,7 +48,6 @@ subdomain -d <bomain> -w <wordlist>
 ## Example:
 - **To scan a target machine (google.com)**:
 
-> ![Screenshot_2024-09-25_10-34-11](https://github.com/user-attachments/assets/8390a947-a6d6-4d47-a6e7-9d16acbfcfef)
 
 ```
 subdomain -d google.com
