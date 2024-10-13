@@ -13,34 +13,25 @@ A simple Python-based subdomain enumeration tool designed to discover subdomains
 Before running the tool, you need to install the following Python libraries:
 
 - `dnspython`
+- `signal`
+- `os`
 - `asyncio`
 - `colorama`
-- `optparse`
+- `argparse`
 
-You can install them using pip:
 
-```
-pip install -r requirements.txt
-```
-## The required libraries:
-
-- `dnspython`
-- `asyncio`
-- `colorama`
-- `optparse`
 ## installation
 - **1.Clone the repository**:
 ```
-git clone https://github.com/hemaabokila/subdomain.git
-cd subdomain
-sudo mv wordlistsub.txt /usr/share/wordlists/wordlistsub.txt
-pip install -r requirements.txt
-sudo mv subdomain.py /usr/bin/subdomain && chmod +x /usr/bin/subdomain
+git clone https://github.com/hemaabokila/subdomain_enumeration_tool.git
+cd subdomain_enumeration_tool
+sudo pip install .
+
 ```
 - **2.Run the script with the following options**:
 ```
-subdomain -d <bomain>
-subdomain -d <bomain> -w <wordlist>
+sub <bomain>
+sub <bomain> -w <wordlist>
 
 ```
 
@@ -50,7 +41,7 @@ subdomain -d <bomain> -w <wordlist>
 
 
 ```
-subdomain -d google.com
+sub google.com
 ```
 
 ## Example Output
